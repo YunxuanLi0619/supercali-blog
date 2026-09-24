@@ -497,6 +497,10 @@ export async function loadQuartzConfig(
     builtinPlugins.ComponentResources(),
     builtinPlugins.Assets(),
     builtinPlugins.Static(),
+    // Runs alongside ContentIndex (which stays on for sitemap/search/Explorer
+    // data) but owns the RSS feed itself, since ContentIndex has no way to
+    // exclude PageTypeDispatcher's virtual pages from it. See issue #5.
+    builtinPlugins.Rss(),
   ]
   const builtinPageTypes = [builtinPlugins.PageTypes.NotFoundPageType()]
 

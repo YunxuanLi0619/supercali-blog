@@ -116,13 +116,12 @@ plugins:
     enabled: true
     options:
       enableSiteMap: true
-      enableRSS: true
-      # Default rssLimit (10) truncates the feed once tag/folder/index
-      # pages are mixed in alongside Posts, dropping real Posts out of
-      # the window. Raised so every sample Post gets an entry.
-      # Those virtual pages still sort ahead of dated Posts (no date of
-      # their own, so they default to build time) — tracked in #5.
-      rssLimit: 50
+      # RSS is handled by the built-in Rss emitter instead (quartz/plugins/emitters/rss.ts),
+      # which excludes PageTypeDispatcher's virtual pages (tag/folder/index) so they can't
+      # outrank real, dated Posts in the feed — see issue #5. ContentIndex's own generator
+      # has no such filter, only the blanket `unlisted` flag shared with search/sitemap/Explorer,
+      # which still need virtual pages included. sitemap/contentIndex.json stay on here.
+      enableRSS: false
   - source: "@quartz-community/favicon"
     enabled: true
   - source: "@quartz-community/og-image"
