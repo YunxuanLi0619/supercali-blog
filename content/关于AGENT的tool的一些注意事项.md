@@ -7,4 +7,4 @@ tags:
   - ERROR
 draft: false
 ---
-Agent的tool在
+Agent的tool在agent loop中的调用很重要
