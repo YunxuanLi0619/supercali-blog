@@ -202,20 +202,17 @@ plugins:
       position: beforeBody
       priority: 5
       condition: not-index
-  # Comments: giscus, backed by this repo's GitHub Discussions (enabled).
-  # repoId/category/categoryId are placeholders (TODO) until a human
-  # registers the repo at giscus.app (see parent spec's Out of Scope;
-  # follow-up via /wizard). The widget renders in an "unconfigured"
-  # state until real values are filled in.
+  # Comments: giscus, backed by this repo's GitHub Discussions.
+  # App installed and repoId/category/categoryId registered via giscus.app (see /wizard).
   - source: "@quartz-community/comments"
     enabled: true
     options:
       provider: giscus
       options:
         repo: YunxuanLi0619/supercali-blog
-        repoId: "TODO-GISCUS-REPO-ID"
-        category: "TODO-GISCUS-CATEGORY"
-        categoryId: "TODO-GISCUS-CATEGORY-ID"
+        repoId: "R_kgDOUoscDg"
+        category: "Q&A"
+        categoryId: "DIC_kwDOUoscDs4DGT7Q"
         lang: en
     layout:
       position: afterBody
