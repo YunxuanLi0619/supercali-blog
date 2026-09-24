@@ -4,12 +4,10 @@ configuration:
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
-  # TODO(giscus/GA follow-up, see /wizard): inert until a real Google
-  # Analytics Measurement ID is obtained (out of scope for this repo's
-  # spec, tracked separately). Replace tagId below when it's ready.
+  # Google Analytics Measurement ID registered via /wizard.
   analytics:
     provider: google
-    tagId: "TODO-GA-MEASUREMENT-ID"
+    tagId: "G-98YEL8FFMD"
   locale: en-US
   baseUrl: yunxuanli0619.github.io/supercali-blog
   ignorePatterns:
