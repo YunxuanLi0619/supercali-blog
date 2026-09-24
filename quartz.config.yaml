@@ -117,6 +117,12 @@ plugins:
     options:
       enableSiteMap: true
       enableRSS: true
+      # Default rssLimit (10) truncates the feed once tag/folder/index
+      # pages are mixed in alongside Posts, dropping real Posts out of
+      # the window. Raised so every sample Post gets an entry.
+      # Those virtual pages still sort ahead of dated Posts (no date of
+      # their own, so they default to build time) — tracked in #5.
+      rssLimit: 50
   - source: "@quartz-community/favicon"
     enabled: true
   - source: "@quartz-community/og-image"
