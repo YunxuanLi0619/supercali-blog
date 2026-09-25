@@ -8,3 +8,4 @@ tags:
 draft: false
 ---
 Agent的tool在agent loop中的调用很重要
+1.ToolResultBlock = ToolResult 的字段 + tool_use_id。ToolResult 产生的时候还不知道自己对应哪次 tool_use，挂进对话历史前必须补上这个 id 才能让 API 正确配对请求和结果。
