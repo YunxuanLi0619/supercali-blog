@@ -13,6 +13,10 @@ Benchmark的评分规则
 
 Accuracy = 答对的题数/总题数
 
+问题：1.选项抽取
+
+问题：
+
 
 MMLU：
 多学科选择题benchmark。
