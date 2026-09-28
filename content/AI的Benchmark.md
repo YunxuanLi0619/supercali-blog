@@ -22,4 +22,6 @@ agent的memory和RAG的memory问题。
 
 
 Benchmark是什么？
-专业术语：一套标准化的测试，yong
+专业术语：一套标准化的测试，用来比较不同模型或在同一任务上的表现。
+
+包括了：测试数据（shu j
