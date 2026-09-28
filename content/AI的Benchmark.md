@@ -37,6 +37,6 @@ benchmark是一套完整的协议。
 | 真实工程 | SWE-bench     | 修理真实的github issue |
 | 高难推理 | GPQA          | 研究生级别科学回答         |
 | 综合评测 | HELM          | 多场景，多指标表现         |
-| 人类偏好 | chatbot Arena | 用户                |
-| 系统性能 | MLper         |                   |
+| 人类偏好 | chatbot Arena | 用户更喜欢哪个模型         |
+| 系统性能 | MLperf        | 训练/推理速度与部署表现      |
 |      |               |                   |
