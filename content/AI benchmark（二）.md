@@ -10,3 +10,5 @@ draft: true
 Benchmark的评分规则
 
 一、准确率：
+
+Accuracy = 答对的题数/总题数
