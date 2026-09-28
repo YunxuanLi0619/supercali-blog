@@ -13,3 +13,8 @@ draft: true
 3.SWE-bench
 
 他们三个属于软件工程领域的测评集。作用是负责：修bug，写feature，理解大型代码库
+
+
+
+agent的memory和RAG的memory问题。
+
