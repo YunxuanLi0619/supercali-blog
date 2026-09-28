@@ -15,7 +15,7 @@ Accuracy = 答对的题数/总题数
 
 
 MMLU：
-
+多学科选择题benchmark。
 
 
 GPQA高难度选择题目的题目构建与数据清理流程：
