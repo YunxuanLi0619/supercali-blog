@@ -4,7 +4,7 @@ date: 2026-09-27
 tags:
   - en
   - zh
-draft: true
+draft: false
 ---
 1.SWE-bench-verified
 
