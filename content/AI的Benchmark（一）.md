@@ -40,6 +40,7 @@ benchmark是一套完整的协议。
 | 人类偏好 | chatbot Arena | 用户更喜欢哪个模型         |
 | 系统性能 | MLperf        | 训练/推理速度与部署表现      |
 |      |               |                   |
+MMLU知识考试，HumanEval，SWE-bench，GPQA，chatbot Arena， MLperf，HELM
 三：benchmark的组成：
 	一、任务：
 	想测什么能力？
