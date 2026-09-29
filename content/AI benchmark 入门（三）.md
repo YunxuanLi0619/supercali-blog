@@ -3,7 +3,7 @@ title: AI benchmark 入门（三）
 date: 2026-09-28
 tags:
   - zh
-draft: true
+draft: false
 ---
 没有标注答案，怎么测评？Rubric是什么？
 
